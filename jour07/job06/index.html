@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Job 06 - Carousel Materialize</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <style>
+        .carousel-item img { border-radius: 8px; }
+    </style>
+</head>
+<body class="grey lighten-4">
+    <div class="container">
+        <h3 class="center-align" style="margin-top: 50px;">Mon Carousel Materialize</h3>
+        <div class="carousel">
+            <a class="carousel-item" href="#one!"><img src="https://picsum.photos/id/10/250/250"></a>
+            <a class="carousel-item" href="#two!"><img src="https://picsum.photos/id/20/250/250"></a>
+            <a class="carousel-item" href="#three!"><img src="https://picsum.photos/id/30/250/250"></a>
+        </div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.carousel');
+            var instances = M.Carousel.init(elems, {
+                duration: 200,
+                dist: -100,
+                shift: 0,
+                padding: 20
+            });
+        });
+    </script>
+</body>
+</html>
