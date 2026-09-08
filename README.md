@@ -11,6 +11,10 @@ Exercice d'intégration et de logique JavaScript en Vanilla JS.
 - Création de pages `connexion.html` et `inscription.html`.
 - Mise en place d'un système complet de validation asynchrone (temps réel) des champs de formulaire de bout en bout (email, mot de passe avec critères de sécurité, codes postaux, etc.).
 
+### `jour06` - Intégration du framework Bootstrap
+Découverte et intégration du framework CSS Bootstrap.
+- Utilisation des classes utilitaires et composants prédéfinis de Bootstrap (grilles, boutons, alertes, etc.) pour structurer des pages responsives.
+
 ### `jour07` - Intégration du framework Materialize
 Découverte et intégration du framework CSS Materialize.
 - Utilisation des classes utilitaires pour structurer et styliser une page (`header`, `footer`, grilles).
